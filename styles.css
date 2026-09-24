@@ -1,0 +1,19 @@
+.insta-id-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.insta-id-badge {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: monospace;
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid #333333;
+    font-weight: bold;
+}
+

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram ID Finder",
+  "version": "1.0",
+  "description": "Exibe o ID numérico do perfil diretamente na página do Instagram.",
+  "author": "Code Hollow",
+  "permissions": [],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.instagram.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
